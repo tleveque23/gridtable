@@ -6,14 +6,14 @@
     - [ ] Implement Feature: Generate workspace using Angular CLI, configure Vitest and Playwright.
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Workspace & Library Scaffolding' (Protocol in workflow.md) (0840df3)
 
-## Phase 2: Core Components Construction
+## Phase 2: Core Components Construction [checkpoint: a0bd6e5]
 - [x] Task: Implement `GridColumnComponent`. (9c50f17)
     - [ ] Write Tests: Define inputs (`attribute`, sizing constraints) and template queries.
     - [ ] Implement Feature: Create component, external HTML/SCSS, handle `#row` and `#header` ContentChildren.
 - [x] Task: Implement `GridTableComponent`. (bc9c8c1)
     - [ ] Write Tests: Test rendering based on `values` input and dynamic CSS Grid styling computation based on columns.
     - [ ] Implement Feature: Create component, accept `values` signal input, compute CSS grid-template-columns based on `GridColumnComponent` children.
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Core Components Construction' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Core Components Construction' (Protocol in workflow.md) (a0bd6e5)
 
 ## Phase 3: Demo Application Integration
 - [ ] Task: Build static data showcase in demo app.
