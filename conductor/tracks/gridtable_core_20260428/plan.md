@@ -15,8 +15,8 @@
     - [ ] Implement Feature: Create component, accept `values` signal input, compute CSS grid-template-columns based on `GridColumnComponent` children.
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Core Components Construction' (Protocol in workflow.md) (a0bd6e5)
 
-## Phase 3: Demo Application Integration
+## Phase 3: Demo Application Integration [checkpoint: 34ecfc8]
 - [x] Task: Build static data showcase in demo app. (512a00b)
     - [ ] Write Tests: E2E test verifying the grid renders correctly with basic and custom columns.
     - [ ] Implement Feature: Import library, create a sample dataset, and build a view demonstrating the sizing and custom templates.
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Demo Application Integration' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Demo Application Integration' (Protocol in workflow.md) (34ecfc8)
