@@ -7,7 +7,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Workspace & Library Scaffolding' (Protocol in workflow.md) (0840df3)
 
 ## Phase 2: Core Components Construction
-- [ ] Task: Implement `GridColumnComponent`.
+- [x] Task: Implement `GridColumnComponent`. (9c50f17)
     - [ ] Write Tests: Define inputs (`attribute`, sizing constraints) and template queries.
     - [ ] Implement Feature: Create component, external HTML/SCSS, handle `#row` and `#header` ContentChildren.
 - [ ] Task: Implement `GridTableComponent`.
