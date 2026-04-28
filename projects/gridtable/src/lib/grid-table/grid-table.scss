@@ -1,0 +1,20 @@
+.grid-table {
+  display: grid;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.grid-table-header {
+  font-weight: bold;
+  padding: 8px;
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #ccc;
+}
+
+.grid-table-cell {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+// Ensure cells in the last row don't have a bottom border if preferred
+// But for a simple MVP, this is enough.

@@ -1,5 +1,2 @@
-/*
- * Public API Surface of gridtable
- */
-
-export * from './lib/gridtable';
+export * from './lib/grid-table/grid-table';
+export * from './lib/grid-column/grid-column';

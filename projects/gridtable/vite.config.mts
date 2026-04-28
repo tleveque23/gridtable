@@ -8,6 +8,9 @@ import { playwright } from '@vitest/browser-playwright';
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   plugins: [angular(), viteTsConfigPaths()],
+  optimizeDeps: {
+    include: ['@angular/common'],
+  },
 
   test: {
     globals: true,

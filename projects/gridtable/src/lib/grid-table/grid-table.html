@@ -1,0 +1,25 @@
+<div class="grid-table" [style.grid-template-columns]="gridTemplateColumns()">
+  <!-- Headers -->
+  @for (col of columns(); track $index) {
+    <div class="grid-table-header">
+      @if (col.headerTemplate()) {
+        <ng-container [ngTemplateOutlet]="col.headerTemplate()!"></ng-container>
+      } @else {
+        {{ col.attribute() }}
+      }
+    </div>
+  }
+
+  <!-- Rows -->
+  @for (row of values(); track $index) {
+    @for (col of columns(); track $index) {
+      <div class="grid-table-cell">
+        @if (col.rowTemplate()) {
+          <ng-container [ngTemplateOutlet]="col.rowTemplate()!" [ngTemplateOutletContext]="{ $implicit: row }"></ng-container>
+        } @else {
+          {{ row[col.attribute()!] }}
+        }
+      </div>
+    }
+  }
+</div>
