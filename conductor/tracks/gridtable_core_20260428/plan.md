@@ -10,7 +10,7 @@
 - [x] Task: Implement `GridColumnComponent`. (9c50f17)
     - [ ] Write Tests: Define inputs (`attribute`, sizing constraints) and template queries.
     - [ ] Implement Feature: Create component, external HTML/SCSS, handle `#row` and `#header` ContentChildren.
-- [ ] Task: Implement `GridTableComponent`.
+- [x] Task: Implement `GridTableComponent`. (bc9c8c1)
     - [ ] Write Tests: Test rendering based on `values` input and dynamic CSS Grid styling computation based on columns.
     - [ ] Implement Feature: Create component, accept `values` signal input, compute CSS grid-template-columns based on `GridColumnComponent` children.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Core Components Construction' (Protocol in workflow.md)
