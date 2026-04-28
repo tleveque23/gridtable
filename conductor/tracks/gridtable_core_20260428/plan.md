@@ -16,7 +16,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Core Components Construction' (Protocol in workflow.md) (a0bd6e5)
 
 ## Phase 3: Demo Application Integration
-- [ ] Task: Build static data showcase in demo app.
+- [~] Task: Build static data showcase in demo app.
     - [ ] Write Tests: E2E test verifying the grid renders correctly with basic and custom columns.
     - [ ] Implement Feature: Import library, create a sample dataset, and build a view demonstrating the sizing and custom templates.
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Demo Application Integration' (Protocol in workflow.md)

@@ -6,7 +6,7 @@
     "strict": true,
     "paths": {
       "gridtable": [
-        "./dist/gridtable"
+        "./projects/gridtable/src/public-api.ts"
       ]
     },
     "noImplicitOverride": true,
