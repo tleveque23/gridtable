@@ -1,10 +1,10 @@
 # Implementation Plan: Implement core GridTable component with CSS Grid sizing and template support
 
-## Phase 1: Workspace & Library Scaffolding
+## Phase 1: Workspace & Library Scaffolding [checkpoint: 0840df3]
 - [x] Task: Initialize Angular workspace with a library project `gridtable` and a demo application. (2a29b12)
     - [ ] Write Tests: Verify standard Angular setup files exist.
     - [ ] Implement Feature: Generate workspace using Angular CLI, configure Vitest and Playwright.
-- [ ] Task: Conductor - User Manual Verification 'Phase 1: Workspace & Library Scaffolding' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 1: Workspace & Library Scaffolding' (Protocol in workflow.md) (0840df3)
 
 ## Phase 2: Core Components Construction
 - [ ] Task: Implement `GridColumnComponent`.
