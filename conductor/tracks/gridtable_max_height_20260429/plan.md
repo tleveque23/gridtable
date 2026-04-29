@@ -13,7 +13,7 @@
 ## Phase 2: Add Vertical Scroll Demo
 - [x] Task: Add large dataset for demo. c93ee79
   - [ ] Update `src/app/app.ts` to generate 50 rows of data.
-- [ ] Task: Add new demo table to `app.html`.
+- [x] Task: Add new demo table to `app.html`. f593f2f
   - [ ] Add a new section with `<grid-table [values]="longValues()" maxHeight="400px">`.
 - [ ] Task: Verify visually in the browser.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Add Vertical Scroll Demo' (Protocol in workflow.md)
