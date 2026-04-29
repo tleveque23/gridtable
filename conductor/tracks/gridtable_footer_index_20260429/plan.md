@@ -21,13 +21,13 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Full-Width Footer' (Protocol in workflow.md) bd7803d
 
 ## Phase 3: Column-Based Footer and Colspan
-- [ ] Task: Implement Column-Based Footer templates.
+- [x] Task: Implement Column-Based Footer templates. c95d5e6
   - [ ] Write failing test for per-column footer rendering and `footerColspan`.
   - [ ] Add `footerTemplate = contentChild<TemplateRef<any>>('footer')` and `footerColspan = input<number>(1)` to `GridColumnComponent`.
   - [ ] Update `GridTableComponent` template to render column footers using `@for`.
   - [ ] Add `stickyFooter = input<boolean>(false)` to `GridTableComponent`.
   - [ ] Update `grid-table.scss` to handle `grid-column: span X` for footer cells.
   - [ ] Verify unit tests pass.
-- [ ] Task: Add Demo Table 4 (Column-Based Footer).
+- [x] Task: Add Demo Table 4 (Column-Based Footer). c95d5e6
   - [ ] Add Table 4 to `app.html` with column footer templates and `footerColspan`.
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Column-Based Footer and Colspan' (Protocol in workflow.md)
