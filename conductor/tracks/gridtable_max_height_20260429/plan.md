@@ -1,7 +1,7 @@
 # Implementation Plan: GridTable Maximum Height and Vertical Scrolling
 
 ## Phase 1: Implement `maxHeight` and Sticky Header
-- [ ] Task: Add `maxHeight` input and update styles.
+- [x] Task: Add `maxHeight` input and update styles. dabbe64
   - [ ] Write failing test for `maxHeight` input.
   - [ ] Add `maxHeight = input<string>()` to `GridTableComponent`.
   - [ ] Update `grid-table.html` to bind `[style.max-height]="maxHeight()"`.
