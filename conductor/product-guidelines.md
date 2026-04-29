@@ -7,7 +7,7 @@
 **Not a Priority for V1**: Initial development will focus on core grid functionality, performance, and the API surface. Strict WCAG compliance and advanced ARIA roles will be deferred to later versions.
 
 ## Responsiveness
-**Horizontal Scrolling**: On smaller screens or when the grid exceeds the container width, the table will default to horizontal scrolling to ensure data remains accessible without complex layout shifts.
+**Scrolling & Constraints**: The table supports both horizontal and vertical scrolling when `maxWidth` or `maxHeight` constraints are set. Vertical scrolling includes sticky header support to ensure data remains contextually accessible.
 
 ## State Management UI
 **Events Only**: The component will remain focused on data presentation. It will emit loading and error events to the parent component, leaving the responsibility of rendering skeleton loaders, spinners, or error messages entirely to the consumer.

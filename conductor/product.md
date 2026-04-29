@@ -28,7 +28,7 @@ On va garder ça simple comme ça pour la première version. Faut pas oublier qu
 Open Source - Aimed at developers looking for a flexible, reusable table component utilizing modern Angular features.
 
 ## Core Features
-- **Advanced Column Sizing**: The primary motivation for this component. Complete control over minimum, maximum, and default column widths. The table supports an optional `maxWidth` constraint and automatically enables horizontal scrolling when content exceeds the available width, overcoming the limitations of standard HTML tables through CSS Grid.
+- **Advanced Column Sizing**: The primary motivation for this component. Complete control over minimum, maximum, and default column widths. The table supports optional `maxWidth` and `maxHeight` constraints, with automatic scrolling and sticky headers when content exceeds these limits, overcoming the limitations of standard HTML tables through CSS Grid.
 - **Sort & Filter**: Built-in column sorting and data filtering capabilities.
 - **Pagination**: Support for splitting large datasets across multiple pages.
 
