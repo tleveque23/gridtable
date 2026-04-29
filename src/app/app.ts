@@ -1,10 +1,10 @@
 import { Component, signal } from '@angular/core'
-import { GridTableComponent, GridColumnComponent } from 'gridtable'
+import { GridTableComponent, GridColumnComponent, GridTableFooterComponent } from 'gridtable'
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [GridTableComponent, GridColumnComponent],
+  imports: [GridTableComponent, GridColumnComponent, GridTableFooterComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
@@ -43,8 +43,8 @@ export class AppComponent {
   longValues = signal(
     Array.from({ length: 50 }, (_, i) => ({
       id: i + 1,
-      name: `Name \${i + 1}`,
-      firstName: `First Name \${i + 1}`,
+      name: `Name ${i + 1}`,
+      firstName: `First Name ${i + 1}`,
       age: 20 + (i % 30),
     }))
   )
