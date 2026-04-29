@@ -16,6 +16,10 @@
 .grid-table-cell {
   padding: 8px;
   border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
 }
 
 // Ensure cells in the last row don't have a bottom border if preferred

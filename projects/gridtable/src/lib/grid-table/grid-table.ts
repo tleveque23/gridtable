@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common'
 import { GridColumnComponent } from '../grid-column/grid-column'
 
 @Component({
-  selector: 'lib-grid-table',
+  selector: 'grid-table',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './grid-table.html',

@@ -4,10 +4,10 @@ import { GridColumnComponent } from './grid-column'
 
 @Component({
   template: `
-    <lib-grid-column [attribute]="'name'" [defaultWidth]="'100px'">
+    <grid-column [attribute]="'name'" [defaultWidth]="'100px'">
       <ng-template #header>Name Header</ng-template>
       <ng-template #row let-item>Name: {{ item.name }}</ng-template>
-    </lib-grid-column>
+    </grid-column>
   `,
   imports: [GridColumnComponent],
 })

@@ -5,16 +5,16 @@ import { GridColumnComponent } from '../grid-column/grid-column'
 
 @Component({
   template: `
-    <lib-grid-table [values]="data()">
-      <lib-grid-column [attribute]="'id'">
+    <grid-table [values]="data()">
+      <grid-column [attribute]="'id'">
         <ng-template #header>ID</ng-template>
         <ng-template #row let-item>{{ item.id }}</ng-template>
-      </lib-grid-column>
-      <lib-grid-column [attribute]="'name'">
+      </grid-column>
+      <grid-column [attribute]="'name'">
         <ng-template #header>Name</ng-template>
         <ng-template #row let-item>{{ item.name }}</ng-template>
-      </lib-grid-column>
-    </lib-grid-table>
+      </grid-column>
+    </grid-table>
   `,
   imports: [GridTableComponent, GridColumnComponent],
 })

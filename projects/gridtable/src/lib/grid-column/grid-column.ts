@@ -1,7 +1,7 @@
 import { Component, input, contentChild, TemplateRef } from '@angular/core'
 
 @Component({
-  selector: 'lib-grid-column',
+  selector: 'grid-column',
   standalone: true,
   templateUrl: './grid-column.html',
   styleUrl: './grid-column.scss',

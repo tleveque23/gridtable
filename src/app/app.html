@@ -1,26 +1,28 @@
 <main class="main">
   <h1>GridTable Demo</h1>
 
-  <lib-grid-table [values]="values()">
-    <lib-grid-column attribute="name" defaultWidth="150px">
+  <grid-table [values]="values()">
+    <grid-column attribute="name" defaultWidth="150px">
       <ng-template #header>Name</ng-template>
-      <ng-template #row let-item>{{ item.name }}</ng-template>
-    </lib-grid-column>
+      <ng-template #row let-item>
+        <div>{{ item.name }}</div>
+      </ng-template>
+    </grid-column>
 
-    <lib-grid-column attribute="firstName" minWidth="100px" maxWidth="200px">
+    <grid-column attribute="firstName" minWidth="100px" maxWidth="200px">
       <ng-template #header>First Name</ng-template>
       <ng-template #row let-item>{{ item.firstName }}</ng-template>
-    </lib-grid-column>
+    </grid-column>
 
-    <lib-grid-column attribute="age" defaultWidth="80px">
+    <grid-column attribute="age" defaultWidth="80px">
       <ng-template #header>Age</ng-template>
       <ng-template #row let-item>{{ item.age }}</ng-template>
-    </lib-grid-column>
+    </grid-column>
 
-    <lib-grid-column defaultWidth="100px">
+    <grid-column defaultWidth="100px">
       <ng-template #row let-item>
         <button (click)="deleteItem(item)">Delete</button>
       </ng-template>
-    </lib-grid-column>
-  </lib-grid-table>
+    </grid-column>
+  </grid-table>
 </main>
