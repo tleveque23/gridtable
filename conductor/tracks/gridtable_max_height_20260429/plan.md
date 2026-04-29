@@ -11,7 +11,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Implement maxHeight and Sticky Header' (Protocol in workflow.md) 4956ff4
 
 ## Phase 2: Add Vertical Scroll Demo
-- [ ] Task: Add large dataset for demo.
+- [x] Task: Add large dataset for demo. c93ee79
   - [ ] Update `src/app/app.ts` to generate 50 rows of data.
 - [ ] Task: Add new demo table to `app.html`.
   - [ ] Add a new section with `<grid-table [values]="longValues()" maxHeight="400px">`.
