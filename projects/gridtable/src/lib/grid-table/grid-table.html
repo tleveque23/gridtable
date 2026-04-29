@@ -11,11 +11,11 @@
   }
 
   <!-- Rows -->
-  @for (row of values(); track $index) {
+  @for (row of values(); track $index; let rowIndex = $index) {
     @for (col of columns(); track $index) {
       <div class="grid-table-cell">
         @if (col.rowTemplate()) {
-          <ng-container [ngTemplateOutlet]="col.rowTemplate()!" [ngTemplateOutletContext]="{ $implicit: row }"></ng-container>
+          <ng-container [ngTemplateOutlet]="col.rowTemplate()!" [ngTemplateOutletContext]="{ $implicit: row, index: rowIndex }"></ng-container>
         } @else {
           {{ row[col.attribute()!] }}
         }

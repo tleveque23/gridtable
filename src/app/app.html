@@ -20,8 +20,8 @@
     </grid-column>
 
     <grid-column defaultWidth="100px">
-      <ng-template #row let-item>
-        <button (click)="deleteItem(item)">Delete</button>
+      <ng-template #row let-item let-index="index">
+        <button [id]="item.name + '-' + index" (click)="deleteItem(item)">Delete</button>
       </ng-template>
     </grid-column>
   </grid-table>
