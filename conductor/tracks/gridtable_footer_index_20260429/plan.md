@@ -1,11 +1,11 @@
 # Implementation Plan: GridTable Footer and Index Exposure
 
 ## Phase 1: Row Index Exposure
-- [ ] Task: Update `GridColumnComponent` and `GridTableComponent` to expose row index.
+- [x] Task: Update `GridColumnComponent` and `GridTableComponent` to expose row index. 8719393
   - [ ] Write failing test for row index exposure in `grid-column.spec.ts`.
   - [ ] Update `grid-table.html` to pass the loop index `$index` to the column's row template context.
   - [ ] Verify unit tests pass.
-- [ ] Task: Update Demo Table 1.
+- [x] Task: Update Demo Table 1. 8719393
   - [ ] Update `src/app/app.html` to use `let-index="index"` and set `[id]="item.name + '-' + index"` on the delete button.
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Row Index Exposure' (Protocol in workflow.md)
 
