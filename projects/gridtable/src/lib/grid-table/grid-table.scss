@@ -2,7 +2,7 @@
   display: grid;
   width: max-content;
   max-width: 100%;
-  overflow-x: auto;
+  overflow: auto;
   border: 1px solid #ccc;
 }
 
@@ -11,6 +11,9 @@
   padding: 8px;
   background-color: #f4f4f4;
   border-bottom: 2px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .grid-table-cell {

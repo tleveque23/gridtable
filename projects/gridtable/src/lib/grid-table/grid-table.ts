@@ -12,6 +12,7 @@ import { GridColumnComponent } from '../grid-column/grid-column'
 export class GridTableComponent {
   values = input<any[]>([])
   maxWidth = input<string>()
+  maxHeight = input<string>()
   columns = contentChildren(GridColumnComponent)
 
   gridTemplateColumns = computed(() => {
