@@ -1,7 +1,7 @@
 # Implementation Plan: GridTable Maximum Width and Horizontal Scrolling
 
 ## Phase 1: Implement `maxWidth` Input on GridTable
-- [ ] Task: Add `maxWidth` input to `GridTableComponent`.
+- [x] Task: Add `maxWidth` input to `GridTableComponent`. 4f2d9da
     - [ ] Write failing test for new `maxWidth` input.
     - [ ] Update `projects/gridtable/src/lib/grid-table/grid-table.ts` to add `maxWidth = input<string>()`.
     - [ ] Update `projects/gridtable/src/lib/grid-table/grid-table.html` to bind `[style.max-width]` or a CSS variable to the `maxWidth` input.
