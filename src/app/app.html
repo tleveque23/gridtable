@@ -25,4 +25,40 @@
       </ng-template>
     </grid-column>
   </grid-table>
+
+  <h2 style="margin-top: 40px;">Horizontal Scroll Demo (maxWidth="600px")</h2>
+  <grid-table [values]="wideData()" maxWidth="600px">
+    <grid-column attribute="name" defaultWidth="150px">
+      <ng-template #header>Name</ng-template>
+      <ng-template #row let-item>{{ item.name }}</ng-template>
+    </grid-column>
+    <grid-column attribute="firstName" defaultWidth="150px">
+      <ng-template #header>First Name</ng-template>
+      <ng-template #row let-item>{{ item.firstName }}</ng-template>
+    </grid-column>
+    <grid-column attribute="phone" defaultWidth="150px">
+      <ng-template #header>Phone</ng-template>
+      <ng-template #row let-item>{{ item.phone }}</ng-template>
+    </grid-column>
+    <grid-column attribute="email" defaultWidth="200px">
+      <ng-template #header>Email</ng-template>
+      <ng-template #row let-item>{{ item.email }}</ng-template>
+    </grid-column>
+    <grid-column attribute="address" defaultWidth="200px">
+      <ng-template #header>Address</ng-template>
+      <ng-template #row let-item>{{ item.address }}</ng-template>
+    </grid-column>
+    <grid-column attribute="city" defaultWidth="150px">
+      <ng-template #header>City</ng-template>
+      <ng-template #row let-item>{{ item.city }}</ng-template>
+    </grid-column>
+    <grid-column attribute="country" defaultWidth="150px">
+      <ng-template #header>Country</ng-template>
+      <ng-template #row let-item>{{ item.country }}</ng-template>
+    </grid-column>
+    <grid-column attribute="zip" defaultWidth="100px">
+      <ng-template #header>Zip</ng-template>
+      <ng-template #row let-item>{{ item.zip }}</ng-template>
+    </grid-column>
+  </grid-table>
 </main>
