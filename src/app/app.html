@@ -61,4 +61,24 @@
       <ng-template #row let-item>{{ item.zip }}</ng-template>
     </grid-column>
   </grid-table>
+
+  <h2 style="margin-top: 40px;">Vertical Scroll Demo (maxHeight="400px")</h2>
+  <grid-table [values]="longValues()" maxHeight="400px">
+    <grid-column attribute="id" defaultWidth="50px">
+      <ng-template #header>ID</ng-template>
+      <ng-template #row let-item>{{ item.id }}</ng-template>
+    </grid-column>
+    <grid-column attribute="name" defaultWidth="150px">
+      <ng-template #header>Name</ng-template>
+      <ng-template #row let-item>{{ item.name }}</ng-template>
+    </grid-column>
+    <grid-column attribute="firstName" defaultWidth="150px">
+      <ng-template #header>First Name</ng-template>
+      <ng-template #row let-item>{{ item.firstName }}</ng-template>
+    </grid-column>
+    <grid-column attribute="age" defaultWidth="80px">
+      <ng-template #header>Age</ng-template>
+      <ng-template #row let-item>{{ item.age }}</ng-template>
+    </grid-column>
+  </grid-table>
 </main>
