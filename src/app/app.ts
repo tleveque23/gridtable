@@ -40,6 +40,15 @@ export class AppComponent {
     },
   ])
 
+  longValues = signal(
+    Array.from({ length: 50 }, (_, i) => ({
+      id: i + 1,
+      name: `Name \${i + 1}`,
+      firstName: `First Name \${i + 1}`,
+      age: 20 + (i % 30),
+    }))
+  )
+
   deleteItem(item: any) {
     this.values.update((v) => v.filter((i) => i !== item))
   }
