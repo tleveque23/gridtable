@@ -29,6 +29,7 @@ Open Source - Aimed at developers looking for a flexible, reusable table compone
 
 ## Core Features
 - **Advanced Column Sizing**: The primary motivation for this component. Complete control over minimum, maximum, and default column widths. The table supports optional `maxWidth` and `maxHeight` constraints, with automatic scrolling and sticky headers when content exceeds these limits, overcoming the limitations of standard HTML tables through CSS Grid.
+- **Footer Support & Index Exposure**: Support for full-width and per-column footers with `colspan` capabilities. Exposes row index to column templates for advanced row-level logic and identifiers.
 - **Sort & Filter**: Built-in column sorting and data filtering capabilities.
 - **Pagination**: Support for splitting large datasets across multiple pages.
 
