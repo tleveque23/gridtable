@@ -9,10 +9,10 @@
     - [ ] Run tests and ensure they pass.
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Implement `maxWidth` Input on GridTable' (Protocol in workflow.md) 1a5563c
 
-## Phase 2: Add Secondary Demo Table
+## Phase 2: Add Secondary Demo Table [checkpoint: f339038]
 - [x] Task: Update Demo Application with a new Horizontal Scroll Table. 57bfab3
     - [ ] Update `src/app/app.ts` to include the extra mock data for 'Phone', 'Email', 'Address', 'City', 'Country', 'Zip Code'.
     - [ ] Update `src/app/app.html` to add a second `<lib-grid-table>` utilizing `maxWidth="600px"` (or a similar constraining value) along with the new columns.
     - [ ] Run the demo application and visually verify the horizontal scrollbar functionality.
     - [ ] Ensure existing E2E/Unit tests pass.
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Add Secondary Demo Table' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Add Secondary Demo Table' (Protocol in workflow.md) f339038
