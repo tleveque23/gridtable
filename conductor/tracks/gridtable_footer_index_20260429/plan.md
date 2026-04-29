@@ -10,13 +10,13 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Row Index Exposure' (Protocol in workflow.md) f4c54ed
 
 ## Phase 2: Full-Width Footer
-- [ ] Task: Create `GridTableFooterComponent`.
+- [x] Task: Create `GridTableFooterComponent`. 34138bf
   - [ ] Write failing test for `GridTableFooterComponent` projection and sticky behavior.
   - [ ] Generate `GridTableFooterComponent` with `sticky = input<boolean>(false)`.
   - [ ] Update `GridTableComponent` to support footer projection.
   - [ ] Add SCSS for footer positioning and sticky behavior.
   - [ ] Verify unit tests pass.
-- [ ] Task: Add Demo Table 3 (Full-Width Footer).
+- [x] Task: Add Demo Table 3 (Full-Width Footer). 34138bf
   - [ ] Add `longValues` (or similar) to Table 3 in `app.html` with a `lib-grid-table-footer`.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Full-Width Footer' (Protocol in workflow.md)
 
