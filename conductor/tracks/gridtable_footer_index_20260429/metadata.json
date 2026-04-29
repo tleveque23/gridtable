@@ -1,8 +1,0 @@
-{
-  "track_id": "gridtable_footer_index_20260429",
-  "type": "feature",
-  "status": "new",
-  "created_at": "2026-04-29T15:15:00Z",
-  "updated_at": "2026-04-29T15:15:00Z",
-  "description": "Implement footer support (full-width and column-based with colspan) and expose row index to column templates."
-}
