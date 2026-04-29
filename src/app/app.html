@@ -104,4 +104,31 @@
       <strong>TOTAL: {{ longValues().length }} items</strong>
     </lib-grid-table-footer>
   </grid-table>
+
+  <h2 style="margin-top: 40px;">Column-Based Footer Demo (with Colspan & Sticky)</h2>
+  <grid-table [values]="values()" [stickyFooter]="true">
+    <grid-column [footerColspan]="3">
+      <ng-template #header>Combined Info (Name, First Name, Age)</ng-template>
+      <ng-template #row let-item>
+        {{ item.name }}, {{ item.firstName }} ({{ item.age }})
+      </ng-template>
+      <ng-template #footer>
+        <div style="text-align: right; width: 100%;">Summary Footer (spans 3 cols):</div>
+      </ng-template>
+    </grid-column>
+    <grid-column attribute="age">
+      <ng-template #header>Empty Col</ng-template>
+      <ng-template #row let-item></ng-template>
+      <!-- No footer here, it will be covered by the colspan above or just be empty -->
+    </grid-column>
+    <grid-column attribute="id">
+      <ng-template #header>Actions</ng-template>
+      <ng-template #row let-item let-index="index">
+        <button [id]="'btn-' + index">Action {{ index }}</button>
+      </ng-template>
+      <ng-template #footer>
+        <strong>Done</strong>
+      </ng-template>
+    </grid-column>
+  </grid-table>
 </main>

@@ -25,5 +25,21 @@
   height: 100%;
 }
 
+.grid-table-column-footer {
+  padding: 8px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ccc;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  &.sticky-footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+  }
+}
+
 // Ensure cells in the last row don't have a bottom border if preferred
 // But for a simple MVP, this is enough.

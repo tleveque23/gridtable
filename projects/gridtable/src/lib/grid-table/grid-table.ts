@@ -13,6 +13,7 @@ export class GridTableComponent {
   values = input<any[]>([])
   maxWidth = input<string>()
   maxHeight = input<string>()
+  stickyFooter = input<boolean>(false)
   columns = contentChildren(GridColumnComponent)
 
   gridTemplateColumns = computed(() => {

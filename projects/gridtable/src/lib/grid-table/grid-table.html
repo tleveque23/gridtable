@@ -23,5 +23,16 @@
     }
   }
 
+  <!-- Column Footers -->
+  @for (col of columns(); track $index) {
+    @if (col.footerTemplate()) {
+      <div class="grid-table-column-footer" 
+           [style.grid-column]="'span ' + col.footerColspan()"
+           [class.sticky-footer]="stickyFooter()">
+        <ng-container [ngTemplateOutlet]="col.footerTemplate()!"></ng-container>
+      </div>
+    }
+  }
+
   <ng-content select="lib-grid-table-footer"></ng-content>
 </div>
