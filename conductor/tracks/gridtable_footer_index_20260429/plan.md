@@ -9,7 +9,7 @@
   - [ ] Update `src/app/app.html` to use `let-index="index"` and set `[id]="item.name + '-' + index"` on the delete button.
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Row Index Exposure' (Protocol in workflow.md) f4c54ed
 
-## Phase 2: Full-Width Footer
+## Phase 2: Full-Width Footer [checkpoint: bd7803d]
 - [x] Task: Create `GridTableFooterComponent`. 34138bf
   - [ ] Write failing test for `GridTableFooterComponent` projection and sticky behavior.
   - [ ] Generate `GridTableFooterComponent` with `sticky = input<boolean>(false)`.
@@ -18,7 +18,7 @@
   - [ ] Verify unit tests pass.
 - [x] Task: Add Demo Table 3 (Full-Width Footer). 34138bf
   - [ ] Add `longValues` (or similar) to Table 3 in `app.html` with a `lib-grid-table-footer`.
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Full-Width Footer' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Full-Width Footer' (Protocol in workflow.md) bd7803d
 
 ## Phase 3: Column-Based Footer and Colspan
 - [ ] Task: Implement Column-Based Footer templates.
