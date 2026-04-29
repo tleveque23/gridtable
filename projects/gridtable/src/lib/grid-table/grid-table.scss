@@ -4,6 +4,7 @@
   max-width: 100%;
   overflow: auto;
   border: 1px solid #ccc;
+  border-right: none; // We add right border to children instead
 }
 
 .grid-table-header {
@@ -11,6 +12,7 @@
   padding: 8px;
   background-color: #f4f4f4;
   border-bottom: 2px solid #ccc;
+  border-right: 1px solid #ccc;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -19,6 +21,7 @@
 .grid-table-cell {
   padding: 8px;
   border-bottom: 1px solid #eee;
+  border-right: 1px solid #ccc;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -29,6 +32,7 @@
   padding: 8px;
   background-color: #f9f9f9;
   border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -40,6 +44,7 @@
     z-index: 10;
   }
 }
+
 
 // Ensure cells in the last row don't have a bottom border if preferred
 // But for a simple MVP, this is enough.

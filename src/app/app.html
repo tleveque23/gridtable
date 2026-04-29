@@ -107,21 +107,21 @@
 
   <h2 style="margin-top: 40px;">Column-Based Footer Demo (with Colspan & Sticky)</h2>
   <grid-table [values]="values()" [stickyFooter]="true">
-    <grid-column [footerColspan]="3">
-      <ng-template #header>Combined Info (Name, First Name, Age)</ng-template>
+    <grid-column [footerColspan]="2">
+      <ng-template #header>Combined Info (Name, First Name)</ng-template>
       <ng-template #row let-item>
-        {{ item.name }}, {{ item.firstName }} ({{ item.age }})
+        {{ item.name }}, {{ item.firstName }}
       </ng-template>
       <ng-template #footer>
-        <div style="text-align: right; width: 100%;">Summary Footer (spans 3 cols):</div>
+        <div style="text-align: right; width: 100%;">Summary Footer (spans 2 cols):</div>
       </ng-template>
     </grid-column>
-    <grid-column attribute="age">
-      <ng-template #header>Empty Col</ng-template>
-      <ng-template #row let-item></ng-template>
-      <!-- No footer here, it will be covered by the colspan above or just be empty -->
+    <grid-column attribute="age" defaultWidth="80px">
+      <ng-template #header>Age</ng-template>
+      <ng-template #row let-item>{{ item.age }}</ng-template>
+      <!-- No footer here, it will be covered by the colspan above -->
     </grid-column>
-    <grid-column attribute="id">
+    <grid-column attribute="id" defaultWidth="100px">
       <ng-template #header>Actions</ng-template>
       <ng-template #row let-item let-index="index">
         <button [id]="'btn-' + index">Action {{ index }}</button>
